@@ -1,38 +1,51 @@
 .App {
+  font-family: "Arial", sans-serif;
   text-align: center;
+  margin: 20px;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: darkgoldenrod;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
+  list-style-type: none;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+li {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  width: 360px;
+  background-color: salmon;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li:hover {
+  background-color: sandybrown;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.StudySuggestion {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+}
+
+.StudySuggestion h2 {
+  color: palevioletred;
+}
+
+.StudySuggestion p {
+  font-size: 1.2em;
+  color: darkmagenta;
 }

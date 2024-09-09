@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TopicsList from "./TopicList";
 import StudySuggestion from "./StudySuggestions";
+import "./App.css";
 
 function App() {
   const [topics] = useState([
