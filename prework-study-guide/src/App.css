@@ -48,4 +48,6 @@ li:hover {
 .StudySuggestion p {
   font-size: 1.2em;
   color: darkmagenta;
+  display: flex;
+  flex-direction: row;
 }
